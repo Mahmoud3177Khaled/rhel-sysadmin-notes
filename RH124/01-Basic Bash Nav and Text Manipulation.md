@@ -60,13 +60,13 @@ Say the last command in history is: **nano ~/.config/gtk-4.0/gtk.css**
 
 **mkdir -pv isos/{redhat,centos,fedora}/{1..10}** ---> Create multiple directories at once.
 **$ tree isos/**
-isos/
-├── centos
-│   └── x86
-├── fedora
-│   └── x86
-└── redhat
-    └── x86
+	isos/
+	├── centos
+	│   └── x86
+	├── fedora
+	│   └── x86
+	└── redhat
+    	└── x86
 
 **cat <<EOF > cattest** ---> takes input from keyboard stdin until i enter "EOF", then saves it in cattest
 
