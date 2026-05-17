@@ -59,6 +59,7 @@ Say the last command in history is: **nano ~/.config/gtk-4.0/gtk.css**
 **rename <old> <new> <files>** ---> Change a substring in the names of multiple files at once.
 
 **mkdir -pv isos/{redhat,centos,fedora}/{1..10}** ---> Create multiple directories at once.
+```
 **$ tree isos/**
 	isos/
 	├── centos
@@ -67,7 +68,7 @@ Say the last command in history is: **nano ~/.config/gtk-4.0/gtk.css**
 	│   └── x86
 	└── redhat
     	└── x86
-
+```
 **cat <<EOF > cattest** ---> takes input from keyboard stdin until i enter "EOF", then saves it in cattest
 
 
@@ -87,12 +88,12 @@ vimtutor!!!!!!!!!!!!!!!!!!
 ***How files point to data on the disk:***
 	  Files point to inodes, inodes carries metadata, one of which is a pointer to the data on the disk.
 	  
-    index nodes are always 256B, carrying ffile type, permissions, owners, timestamp, data pointer, and link count.
+index nodes are always 256B, carrying ffile type, permissions, owners, timestamp, data pointer, and link count.
 		
 **ln <file> <hardlink>**---> To create a hard link, 2 files pointing to the same inode, thus data. If one file is deleted, all are deleted. (Must be on same FS)
 
 **ln -s <file> <symlinkname>**---> To create a symlink, pointing to the same data but through a new inode.
-																	If the original is deleted, the symlink is deleted.
+If the original is deleted, the symlink is deleted.
 
 **ls -li <file>** ---> See the inodes yourfiles points to.
 
