@@ -149,21 +149,6 @@ multi-user.target
 ```
 
 **vim /etc/httpd/conf/httpd.conf** ---> Change httpd.service port.
-
-
-**Network Management:**
-----------------------------------------------------------------------------------------------------------------
-**ip a s** ---> Show NIC connected and the IPs and MACs associated with it.
-Including a "lo" device, a virtual NIC Linux uses to communicate with itself, like when calling "http://localhost".
-
-**nmcli con add con-name test_profile1 type ethernet ifname eth0** ---> Add a new network profile named "test_profile1".
-
-**nmcli c s** ---> Show all profiles, active and inactive, on the system.
-
-**nmcli c s "System eth0"** ---> Opens the profile "System eth0", showing configs for eth0.
-
-***Show property.attribute: <value> pairs in a less pager***
-
 **nmcli con mod** ---> Modify profile attribute values.
 **nmcli con reload** ---> Apply profile modifications.
 
