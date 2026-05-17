@@ -72,7 +72,7 @@ isos/
 
     File descriptors: STDIN -> 0 | STDOUT -> 1 | STDERR -> 2
 
-    vimtutor!!!!!!!!!!!!!!!!!!
+vimtutor ---> very helpful guide to vim
     **:set nu** ---> Enable line numbering in vim
 
 **cp \<SourcePath\> \<DestPath\>** ---> Copy files (add **-r** to copy directories).
