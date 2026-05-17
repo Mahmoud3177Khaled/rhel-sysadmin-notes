@@ -190,7 +190,7 @@ For files:
 
 ---
 
-**umask — change permissions for new files/dirs:**  
+**umask --- change permissions for new files/dirs:**  
 
 Files by default start at 666, dirs start at 777, and umask value gets subtracted.  
   
