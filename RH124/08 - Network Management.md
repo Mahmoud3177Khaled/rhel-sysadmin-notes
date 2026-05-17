@@ -67,9 +67,9 @@ Routers forward packets between networks until they reach the destination.
 **::/0** --> default route  -------------------- (IPv6 internet)  
 **fe80::/10** --> link-local  ------------------ (unroutable, auto-configured on every interface)  
 **ff00::/8** --> multicast  -------------------- (no broadcast in IPv6)  
-**ff02::1** --> all-nodes multicast  -------- (like broadcast)  
-**2000::/3** --> global unicast  ------------- (public routable addresses)  
-**fd00::/8** --? unique local  ----------------- (like private IPv4, self-allocated)  
+**ff02::1** --> all-nodes multicast  ------- (like broadcast)  
+**2000::/3** --> global unicast  ------------ (public routable addresses)  
+**fd00::/8** --? unique local  --------------- (like private IPv4, self-allocated)  
 
 *Enclose IPv6 in square brackets when adding a port: [2001:db8:0:10::1]:80*  
 
