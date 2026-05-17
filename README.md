@@ -44,19 +44,19 @@ rhel-sysadmin-notes/
 │
 ├── Ansible/                # Ansible Automation (planned)
 └── README.md
-
-📝 Disclaimer
+```
+## 📝 Disclaimer
 Note on Formatting: These notes were originally written in the Ubuntu Notes app and exported to Markdown. Some formatting (tables, code blocks, headings, lists) may look slightly inconsistent or need minor fixes across files.
 If you encounter any problems, broken formatting, or inconsistencies, feel free to open an issue — I’d be happy to hear from you and improve the notes!
 
-🤝 Contributing
+## 🤝 Contributing
 This is a personal learning repository, but contributions, suggestions, corrections, and improvements are very welcome!
 
-Found a mistake?
+## Found a mistake?
 Have a better way to explain something?
 Want to add a useful tip?
 
 Just open a Pull Request or Issue.
 
-Happy sysadmin-ing! 🐧
+## Happy sysadmin-ing! 🐧
 Made with ❤️ Mahmoud Khaled
