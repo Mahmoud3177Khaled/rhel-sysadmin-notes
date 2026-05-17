@@ -5,7 +5,7 @@ Two main tools:
 **locate** → fast, searches a pre-built database (not real-time, updates daily)  
 **find** → slow, searches the filesystem in real-time (accurate, tons of filtering options)  
 
-	***locate:***  
+***locate:***  
 **locate <keyword>** ---> Search for files by name/path from the database.  
 **locate -i <keyword>** ---> Case-insensitive search.  
 **locate -n 5 <keyword>** ---> Limit results to first 5 matches.  
@@ -15,7 +15,7 @@ Two main tools:
 *Users only see results for **files they have permission** to access.*  
 
 
-	***find:***  
+***find:***  
 **find <startDir> -name 'pattern' ---> Search by exact filename (wildcards need quotes).  
 **find / -name '*.txt'** ---> All .txt files from root.  
 **find /etc -name '*pass*'** ---> Files with "pass" anywhere in the name.  
