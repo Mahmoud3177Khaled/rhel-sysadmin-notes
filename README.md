@@ -46,8 +46,9 @@ rhel-sysadmin-notes/
 └── README.md
 ```
 ## 📝 Disclaimer
-Note on Formatting: These notes were originally written in the Ubuntu Notes app and exported to Markdown. Some formatting (tables, code blocks, headings, lists) may look slightly inconsistent or need minor fixes across files.
-If you encounter any problems, broken formatting, or inconsistencies, feel free to open an issue — I’d be happy to hear from you and improve the notes!
+Note on Formatting: These notes were originally written in the Ubuntu Notes app with some of my own formatting.  
+Some formatting (tables, code blocks, headings, lists) may look slightly off or need minor fixes across files.  
+If you encounter any problems, broken formatting, or inconsistencies, feel free to open an issue -- I’d be happy to hear from you and improve the notes for everyone!  
 
 ## 🤝 Contributing
 This is a personal learning repository, but contributions, suggestions, corrections, and improvements are very welcome!
