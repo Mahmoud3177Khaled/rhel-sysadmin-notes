@@ -24,7 +24,7 @@ name:pass:uid:gid:fullName:homeDir:allowed user shell
 **chage** ---> Change password lifetime, warning, etc.
 **chage -d 0 \<user\>** ---> Set the user password to expire immediately on login, so he changes it right then.
 
-**usermod [options] \<user\>**
+**usermod [options] \<user\>**\n
 **usermod -c "nickname" \<user\>** ---> Add a nickname for a user.
 **usermod -g \<group\> \<user\>** ---> Set the primary group of \<user\> to \<group\>.
 **usermod -G \<group\> \<user\>** ---> Set the secondary group of \<user\> to \<group\>.
