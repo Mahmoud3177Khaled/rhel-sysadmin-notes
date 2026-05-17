@@ -9,9 +9,9 @@ Device naming:
 
 ```
   SATA/USB:        /dev/sda, /dev/sdb         partitions: /dev/sda1, /dev/sda2  
-  NVMe SSD:        /dev/nvme0n1                  partitions: /dev/nvme0n1p1, /dev/nvme0n1p2  
-  VMs:                      /dev/vda, /dev/vdb        partitions: /dev/vda1, /dev/vda2  
-  SD cards:           /dev/mmcblk0                   partitions: /dev/mmcblk0p1  
+  NVMe SSD:        /dev/nvme0n1               partitions: /dev/nvme0n1p1, /dev/nvme0n1p2  
+  VMs:             /dev/vda, /dev/vdb         partitions: /dev/vda1, /dev/vda2  
+  SD cards:        /dev/mmcblk0               partitions: /dev/mmcblk0p1  
 
 ```
 LVM (Logical Volume Manager) → instead of raw partitions, aggregates physical disks into a volume group, then carves out flexible logical volumes from it.  
