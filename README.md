@@ -43,8 +43,10 @@ rhel-sysadmin-notes/
 │   └── ...
 │
 ├── Ansible/                # Ansible Automation (planned)
+├── Kubernetes/                # Orchestration (planned)
 └── README.md
 ```
+
 ## 📝 Disclaimer
 Note on Formatting: These notes were originally written in the Ubuntu Notes app with some of my own formatting.  
 Some formatting (tables, code blocks, headings, lists) may look slightly off or need minor fixes across files.  
